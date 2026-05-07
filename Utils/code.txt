@@ -1,0 +1,28 @@
+# 1. Clonar o repositório (se ainda não tiver)
+git clone https://github.com/welissonpaz16-eng/Praticas-DevOps-2026.git
+cd Praticas-DevOps-2026
+
+# 2. Criar a pasta Utils (se não existir)
+mkdir -p Utils
+
+# 3. Copiar seu script para a pasta Utils
+cp ~/file_operations.sh Utils/
+
+# 4. Adicionar o arquivo ao Git
+git add Utils/file_operations.sh
+
+# 5. Verificar o status
+git status
+
+# 6. Fazer o commit com uma mensagem descritiva
+git commit -m "Adiciona script multifuncional file_operations.sh em Utils
+
+- Script para renomear arquivos em massa
+- Conversão de imagens JPG para PNG
+- Compactação e extração de arquivos
+- Alteração de permissões
+- Busca de arquivos por padrão
+- Modo interativo e linha de comando"
+
+# 7. Enviar para o GitHub (main ou master)
+git push origin main
